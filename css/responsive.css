@@ -1,4 +1,4 @@
-@media (max-width:1189px){
+@media only screen and (max-width:1189px){
 
    .heading1{
       text-align: center;
@@ -33,7 +33,7 @@
 }
 
 
-@media (max-width:915px){
+@media only screen and (max-width:915px){
    header{
       height: 60px;
       display: -webkit-box;
@@ -103,7 +103,13 @@
 }
 
 
-@media (max-width:480px){
+@media only screen and (max-width:480px){
+   .fa-bars{
+      visibility: visible;
+      font-size: 40px;
+      margin-right: 20px;
+      
+   }  
    .heading1{
       font-size: 68px;
    }
@@ -127,6 +133,3 @@
 
 }
    
-
-
-
