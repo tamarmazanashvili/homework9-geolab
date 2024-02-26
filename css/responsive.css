@@ -1,0 +1,132 @@
+@media (max-width:1189px){
+
+   .heading1{
+      text-align: center;
+
+   }
+
+   .section2{
+      display: inline;
+      
+   }
+   .section2-1{
+      margin: 0 auto;
+      margin-top: 50px;
+      margin-bottom: 50px;
+   }
+   .articles1{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+   }
+   .articles2{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+   }
+}
+
+
+@media (max-width:915px){
+   header{
+      height: 60px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+   }
+   .nav-ul{
+      display: none;
+   }
+   .logo{
+      margin: 0 auto;
+      margin-left: 20px;
+   }
+   .fa-bars{
+      visibility: visible;
+      font-size: 40px;
+      margin-right: 20px;
+      
+   }   
+
+   .heading1{
+      text-align: center;
+
+   }
+   .heading2{
+      text-align: center;
+   }
+   .section2{
+      display: inline;
+      
+   }
+   .section2-1{
+      width: auto;
+      margin-left: 50%;
+      -webkit-transform: translate(-50%);
+          -ms-transform: translate(-50%);
+              transform: translate(-50%);
+      margin-top: 50px;
+   }
+   
+   .article{
+      width: 269px;
+      display: block;
+      margin: 0 auto;
+   }
+
+   .articles1{
+      display: inline;
+   }   
+
+
+   .articles2{
+      display: inline;
+   }  
+   .article-p{
+      margin-bottom: 50px;
+   }
+   .paragraph2-2{
+      margin-bottom: 50px;
+   }
+}
+
+
+@media (max-width:480px){
+   .heading1{
+      font-size: 68px;
+   }
+   .heading2{
+      font-size: 16px;
+      line-height: 1.5;
+   }
+   
+   .article{
+      width: 269px;
+      margin: 0 auto;
+      padding-right: 0;
+   }
+
+   .article img{
+      display: block;
+      margin: 0 auto;
+
+   }
+
+
+}
+   
+
+
+
